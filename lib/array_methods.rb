@@ -9,7 +9,8 @@ end
 
 def find_max_value(array)
   maximum = 0
-    array.times.length 
+    array.times.length do |x|
+      
 end
 
 def find_min_value(array)
