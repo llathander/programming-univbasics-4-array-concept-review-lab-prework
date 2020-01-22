@@ -20,7 +20,7 @@ end
 def find_min_value(array)
  minimum = 0 
   array.times.length do |x|
-    if x == 0
+    if i == 0
       minimum = array[x]
     else
       if array[x] < minimum
