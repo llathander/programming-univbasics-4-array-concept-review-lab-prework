@@ -9,7 +9,7 @@ end
 
 def find_max_value(array)
   maximum = 0
-    if array
+    array.times.length 
 end
 
 def find_min_value(array)
