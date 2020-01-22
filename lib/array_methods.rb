@@ -18,5 +18,12 @@ maximum
 end
 
 def find_min_value(array)
-  # Add your solution here
+  minimum = 0 
+    array.length.times do |x|
+      if array[x] < minimum
+        minimum = array[x]
+      end
+    end
+  minimum
+end
 end
